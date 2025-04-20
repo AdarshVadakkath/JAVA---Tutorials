@@ -10,6 +10,11 @@ public class oops {
     int x = tim.getAge();
     System.out.println(x); // 5
 
+    Dog tim = new Dog("tim", 5);
+    Dog joe = new Dog("joe", 7);
+    System.out.println(tim.name); // tim
+    System.out.println(joe.name); // joe
+
   }
   // Scanner sc = new Scanner(System.in);
 
